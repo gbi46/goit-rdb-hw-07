@@ -1,0 +1,7 @@
+SELECT
+    id,
+    `date`,
+    YEAR(`date`)  AS year_part,
+    MONTH(`date`) AS month_part,
+    DAY(`date`)   AS day_part
+FROM orders;
